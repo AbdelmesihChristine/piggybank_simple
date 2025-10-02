@@ -72,10 +72,15 @@ This project is not about real banking—it’s a **teaching/demo tool** to show
 
 piggybank_simple/
 ├─ main.py                 # Entry point (run this)
+
 └─ piggybank/
+   
    ├─ __init__.py          # Package exports
+  
    ├─ account.py           # OOP models (Owner, Savings, Checking)
+  
    ├─ errors.py            # Custom exceptions
+   
    └─ rules.py             # Small validation helpers
 
 
